@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Getting Started with JavaScript</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+  <script src="withTypescript.js" defer></script>
+  <!-- <script src="withoutTypescript.js" defer></script> -->
+  <style>
+    body,
+    .jumbotron {
+      padding: 30px;
+    }
+
+    .timer {
+      font-size: 120px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="jumbotron text-center">
+
+    <!-- timer -->
+    <div class="timer">
+      <span class="minutes">00</span> : <span class="seconds">00</span>
+    </div>
+
+    <!-- timer buttons -->
+    <div class="timer-buttons">
+      <button class="btn btn-lg btn-success" id="start" data-action="start">
+        Start
+      </button>
+      <button class="btn btn-lg btn-danger" id="stop" data-action="stop">
+        Stop
+      </button>
+      <button class="btn btn-link btn-block" id="reset" data-action="reset">
+        Reset
+      </button>
+    </div>
+  </div>
+</body>
+
+</html>
